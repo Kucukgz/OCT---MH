@@ -125,4 +125,3 @@ if __name__ == '__main__':
     _view_blurriness_test_score(folder, names_max, names_middle, names_min, names)
     _view_dark_light(folder, names_max, names_middle, names_min, names)
     _view_dominant_intensity(folder, names_max, names_middle, names_min, names)
-        
