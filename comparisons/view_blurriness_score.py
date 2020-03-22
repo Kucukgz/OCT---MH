@@ -21,7 +21,7 @@ def _3d_getting_blurriness_score(im):
     return bs
 
 
-def _view_blurriness_score(report, names_max, names_middle, names_min, names):
+def _view_blurriness_score(folder, names_max, names_middle, names_min, names):
     # write the name of which row max
     im1 = imread(folder + '/' + names_max[names.index('Blurriness Level')] + '.tif')
     print(folder + '/' + names_max[names.index('Blurriness Level')] + '.tif')
