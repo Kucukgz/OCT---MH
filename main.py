@@ -387,7 +387,7 @@ def _doing_histogram(file):
         p.set_ylabel('Frequency', fontsize=13)
     plt.tight_layout()
     fig.set_size_inches(20, 15)
-    fig.subplots_adjust(left=0.04, bottom=0.13, right=0.96,
+    fig.subplots_adjust(left=0.09, bottom=0.13, right=0.96,
                         top=0.87, wspace=0.47, hspace=0.71)
     plt.show()
     fig.savefig('full_figure.png', dpi=600)
