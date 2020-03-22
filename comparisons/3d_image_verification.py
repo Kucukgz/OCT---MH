@@ -18,6 +18,7 @@ from view_blurriness_test_score import _view_blurriness_test_score
 from view_noise_level import _view_noise_level
 from view_contrast_level import _view_contrast_level
 from view_dark_light import _view_dark_light
+from view_dominant_intensity import _view_dominant_intensity
 
 
 # get minimum, middle and maximum value of all features from report
@@ -123,3 +124,5 @@ if __name__ == '__main__':
     _view_noise_level(folder, names_max, names_middle, names_min, names)
     _view_blurriness_test_score(folder, names_max, names_middle, names_min, names)
     _view_dark_light(folder, names_max, names_middle, names_min, names)
+    _view_dominant_intensity(folder, names_max, names_middle, names_min, names)
+        
