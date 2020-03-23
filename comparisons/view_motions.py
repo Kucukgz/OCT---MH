@@ -48,8 +48,10 @@ def _view_motions(report, folder):
         print(i)
         max_value = max(all_data[i])
         which_row_max = all_data.loc[all_data[i] == max_value].index[0]
-        middle_value = all_data[i].median()
-        which_row_middle = all_data.loc[all_data[i] == middle_value].index[0]
+        # middle_value = all_data[i].median()
+        # which_row_middle = all_data.loc[all_data[i] == middle_value].index[0]
+        middle_value = sorted(all_data[i])
+        which_row_middle = int(len(middle_value)/2)
         min_value = min(all_data[i])
         which_row_min = all_data.loc[all_data[i] == min_value].index[0]
         # get the name of row in max,middle and min value
